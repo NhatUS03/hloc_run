@@ -65,8 +65,6 @@ rm -rf datasets/inloc
 ### Copy kết quả
 ### Xoá dữ liệu (nếu cần)
 
-
-
 from IPython import get_ipython
 ipython = get_ipython()
 
