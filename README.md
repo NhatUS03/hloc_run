@@ -65,3 +65,11 @@ rm -rf datasets/inloc
 ### Copy kết quả
 ### Xoá dữ liệu (nếu cần)
 
+
+
+from IPython import get_ipython
+ipython = get_ipython()
+
+if '__IPYTHON__' in globals():
+    ipython.magic('load_ext autoreload')
+    ipython.magic('autoreload 2')
